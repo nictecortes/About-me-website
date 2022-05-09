@@ -1,0 +1,99 @@
+header {
+  background-color: #083a5f;
+}
+html {
+  background: linear-gradient(180deg, #083a5f 20%, #23196f 100%, #156088 100%);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav .nav-center {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav .nav-center li {
+  color: white;
+  margin: 20px;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+nav .nav-center .home-icon {
+  background-image: url("./About-me--assets/piramide-home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+nav .nav-center .menu-icon {
+  background-image: url("./About-me--assets/menu-burger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+nav .nav-center .logo {
+  background-image: url("./About-me--assets/time-traveler-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 15px;
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.Photo {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 100px;
+}
+.contact-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: space-evenly;
+  gap: 18px;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+}
+.paragraph-container {
+  width: 60%;
+  margin: 0 auto;
+  background: black;
+  opacity: 0.35;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+}
+p {
+  padding: 20px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+}
