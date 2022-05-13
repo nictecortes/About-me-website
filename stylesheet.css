@@ -43,6 +43,9 @@ nav .nav-center .home-icon {
   width: 50px;
   height: 50px;
 }
+nav .nav-center .home-icon:hover {
+  cursor: pointer;
+}
 
 nav .nav-center .menu-icon {
   background-image: url("./About-me--assets/menu-burger.svg");
@@ -51,6 +54,9 @@ nav .nav-center .menu-icon {
   background-size: contain;
   width: 20px;
   height: 20px;
+}
+nav .nav-center .menu-icon:hover {
+  cursor: pointer;
 }
 nav .nav-center .logo {
   background-image: url("./About-me--assets/time-traveler-logo.png");
