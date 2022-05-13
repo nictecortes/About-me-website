@@ -60,6 +60,38 @@ nav .nav-center .logo {
   width: 80px;
   height: 80px;
 }
+.d-none {
+  display: none;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.secciones li a {
+  display: block;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 2.1rem;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all ease 0.25s;
+}
+
+.secciones li a:hover {
+  color: rgba(255, 255, 255, 1);
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
 h1 {
   color: white;
   text-align: center;
